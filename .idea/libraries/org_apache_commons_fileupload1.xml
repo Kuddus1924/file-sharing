@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="org.apache.commons.fileupload1">
+    <CLASSES>
+      <root url="jar://C:/rellec/apache-tomcat-7.0.82/lib/org.apache.commons.fileupload.jar!/" />
+      <root url="jar://C:/rellec/javax.servlet-api-3.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

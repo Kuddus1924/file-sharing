@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <servlet>
+<servlet-name>LoginServlet</servlet-name>
+<servlet-class>Servlet.LoginServlet</servlet-class>
+</servlet>
+    <servlet-mapping>
+<servlet-name>LoginServlet</servlet-name>
+<url-pattern>/LoginServlet</url-pattern>
+</servlet-mapping>
+    <servlet>
+        <servlet-name>Registrations</servlet-name>
+        <servlet-class>Servlet.RegistrationServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Registrations</servlet-name>
+        <url-pattern>/Registrations</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Download</servlet-name>
+        <servlet-class>Servlet.LoadServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Download</servlet-name>
+        <url-pattern>/Download</url-pattern>
+    </servlet-mapping>
+    <servlet>
+    <servlet-name>URL</servlet-name>
+    <servlet-class>Servlet.DownloadServlet</servlet-class>
+</servlet>
+    <servlet-mapping>
+        <servlet-name>URL</servlet-name>
+        <url-pattern>/URLDownload</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ListFile</servlet-name>
+        <servlet-class>Servlet.ListOfFile</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ListFile</servlet-name>
+        <url-pattern>/ListFile</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>GD</servlet-name>
+        <servlet-class>Servlet.GDServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GD</servlet-name>
+        <url-pattern>/GD</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Logout</servlet-name>
+        <servlet-class>Servlet.Logout</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Logout</servlet-name>
+        <url-pattern>/LogoutServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Catalog</servlet-name>
+        <servlet-class>Servlet.CatalogServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Catalog</servlet-name>
+        <url-pattern>/GCatalog</url-pattern>
+    </servlet-mapping>
+
+</web-app>
